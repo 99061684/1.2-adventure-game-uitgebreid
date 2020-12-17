@@ -1,0 +1,100 @@
+@font-face {
+    font-family: myFirstFont1;
+    src: url(font/another_danger/Another\ Danger\ -\ Demo.otf);
+}
+
+@font-face {
+    font-family: myFirstFont2;
+    src: url(font/curse_of_the_zombie/Curse\ of\ the\ Zombie.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont3;
+    src: url(font/dead_font_walking/Dead\ Font\ Walking.otf);
+}
+
+@font-face {
+    font-family: myFirstFont4;
+    src: url(font/death_to_metal/DeathtoMetal.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont5;
+    src: url(font/maneater-bb/maneaterbb_bold.ttf);
+}
+
+@font-face {
+    font-family: myFirstFont6;
+    src: url(font/skull_and_void/Skull\ and\ Void.otf);
+}
+
+@keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+}
+
+.elementTransition{
+    transition:3s ease;
+}
+
+body {
+    background-color: grey;
+}
+
+h1 {
+    letter-spacing: 7px;
+    color: red;
+}
+
+#game-container {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    /* transition: all .2s ease;  */
+}
+
+#button1 {
+    position: relative; 
+    top: 440px; 
+    /* left: 400px;  */
+    background-color: red;
+
+    padding: 5px 100px 5px 100px; 
+}
+
+#button2 {
+    position: relative; 
+    top: 440px; 
+    /* left: 400px;  */
+    background-color: red;
+
+    padding: 5px 100px 5px 100px; 
+}
+
+#button3 {
+    position: relative; 
+    top: 440px; 
+    /* left: 400px;  */
+    background-color: red;
+
+    padding: 5px 100px 5px 100px; 
+}
+
+#waiting_time {
+    position: absolute;
+    top: 30px;
+    right: 25%;
+    font-size: 24px;
+    color: white;
+}
